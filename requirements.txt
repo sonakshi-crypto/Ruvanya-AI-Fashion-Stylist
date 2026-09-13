@@ -1,0 +1,6 @@
+# Ruvanya – AI Fashion Stylist
+# Python packages used by the current AI module
+
+opencv-python
+mediapipe
+google-genai
