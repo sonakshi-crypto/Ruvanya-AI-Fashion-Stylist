@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Ruvanya | Upload Photo</title>
+
+    <link rel="stylesheet" href="upload.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <span>✦</span>
+        Ruvanya
+    </a>
+
+    <button class="home-button" onclick="goHome()">
+        Home
+    </button>
+
+</header>
+
+
+<main class="upload-page">
+
+    <section class="page-heading">
+
+        <p class="eyebrow">
+            ✦ YOUR STYLE JOURNEY
+        </p>
+
+        <h1>
+            Let's get to know
+            <br>
+            your <i>style.</i>
+        </h1>
+
+        <p class="subtitle">
+            Upload a photo and let Ruvanya
+            prepare a personalized fashion experience for you.
+        </p>
+
+    </section>
+
+
+    <section class="upload-card">
+
+        <!-- UPLOAD AREA -->
+
+        <div id="uploadArea" class="upload-area">
+
+            <div class="upload-icon">
+                ↑
+            </div>
+
+            <h2>
+                Upload your photo
+            </h2>
+
+            <p>
+                Choose a clear photo of yourself
+            </p>
+
+            <button
+                class="choose-button"
+                onclick="openFilePicker()">
+
+                Choose Photo
+
+            </button>
+
+            <input
+                type="file"
+                id="photoInput"
+                accept="image/*"
+                hidden>
+
+        </div>
+
+
+        <!-- PREVIEW AREA -->
+
+        <div
+            id="previewArea"
+            class="preview-area">
+
+            <img
+                id="previewImage"
+                src=""
+                alt="Your uploaded photo">
+
+            <div class="preview-actions">
+
+                <button
+                    class="change-button"
+                    onclick="openFilePicker()">
+
+                    Change Photo
+
+                </button>
+
+                <button
+                    class="continue-button"
+                    onclick="continueToStyle()">
+
+                    Continue
+                    <span>→</span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <div class="tips">
+
+        <p>✓ Use a clear photo</p>
+
+        <p>✓ Make sure your face is visible</p>
+
+        <p>✓ Front-facing photos work best</p>
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <span>✦ Ruvanya</span>
+
+    <p>
+        Where Style Meets You.
+    </p>
+
+</footer>
+
+
+<script src="upload.js"></script>
+
+</body>
+
+</html>
