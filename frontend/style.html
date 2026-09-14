@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Ruvanya | Choose Your Style</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+
+        <span>✦</span>
+
+        Ruvanya
+
+    </a>
+
+
+    <!-- PROGRESS -->
+
+    <div class="progress">
+
+        <div class="progress-step completed">
+
+            <span>✓</span>
+
+            Photo
+
+        </div>
+
+
+        <div class="progress-line"></div>
+
+
+        <div class="progress-step active">
+
+            <span>02</span>
+
+            Style
+
+        </div>
+
+
+        <div class="progress-line"></div>
+
+
+        <div class="progress-step">
+
+            <span>03</span>
+
+            Result
+
+        </div>
+
+    </div>
+
+
+    <button
+        class="home-button"
+        onclick="goHome()">
+
+        Home
+
+    </button>
+
+</header>
+
+
+
+<!-- ================= MAIN ================= -->
+
+<main class="style-page">
+
+
+    <!-- HEADER -->
+
+    <section class="page-header">
+
+        <p class="eyebrow">
+            ✦ PERSONALIZE YOUR LOOK
+        </p>
+
+
+        <h1>
+
+            Tell us about
+            <br>
+            your <i>style.</i>
+
+        </h1>
+
+
+        <p class="subtitle">
+
+            Choose what feels like you.
+            Ruvanya will use your preferences
+            to create a personalized look.
+
+        </p>
+
+    </section>
+
+
+
+    <!-- ================= FORM ================= -->
+
+    <section class="style-container">
+
+
+        <!-- OCCASION -->
+
+        <div class="style-section">
+
+            <div class="section-title">
+
+                <span class="number">
+                    01
+                </span>
+
+                <div>
+
+                    <h2>
+                        What's the occasion?
+                    </h2>
+
+                    <p>
+                        Where are you planning to go?
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="options-grid">
+
+
+                <button
+                    class="option-card"
+                    data-group="occasion"
+                    data-value="College">
+
+                    <span class="option-icon">
+                        🎓
+                    </span>
+
+                    <span>
+                        College
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="occasion"
+                    data-value="Casual">
+
+                    <span class="option-icon">
+                        ☕
+                    </span>
+
+                    <span>
+                        Casual
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="occasion"
+                    data-value="Party">
+
+                    <span class="option-icon">
+                        🎉
+                    </span>
+
+                    <span>
+                        Party
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="occasion"
+                    data-value="Formal">
+
+                    <span class="option-icon">
+                        💼
+                    </span>
+
+                    <span>
+                        Formal
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="occasion"
+                    data-value="Wedding">
+
+                    <span class="option-icon">
+                        💍
+                    </span>
+
+                    <span>
+                        Wedding
+                    </span>
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- OUTFIT -->
+
+        <div class="style-section">
+
+            <div class="section-title">
+
+                <span class="number">
+                    02
+                </span>
+
+                <div>
+
+                    <h2>
+                        What's your vibe?
+                    </h2>
+
+                    <p>
+                        Choose the outfit style you love.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="options-grid">
+
+
+                <button
+                    class="option-card"
+                    data-group="outfit"
+                    data-value="Minimal">
+
+                    <span class="option-icon">
+                        ◌
+                    </span>
+
+                    <span>
+                        Minimal
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="outfit"
+                    data-value="Casual">
+
+                    <span class="option-icon">
+                        ✦
+                    </span>
+
+                    <span>
+                        Casual
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="outfit"
+                    data-value="Chic">
+
+                    <span class="option-icon">
+                        ♡
+                    </span>
+
+                    <span>
+                        Chic
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="outfit"
+                    data-value="Traditional">
+
+                    <span class="option-icon">
+                        ✿
+                    </span>
+
+                    <span>
+                        Traditional
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="outfit"
+                    data-value="Trendy">
+
+                    <span class="option-icon">
+                        ✧
+                    </span>
+
+                    <span>
+                        Trendy
+                    </span>
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- HAIRSTYLE -->
+
+        <div class="style-section">
+
+            <div class="section-title">
+
+                <span class="number">
+                    03
+                </span>
+
+                <div>
+
+                    <h2>
+                        Choose a hairstyle.
+                    </h2>
+
+                    <p>
+                        Pick the hairstyle you prefer.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="options-grid">
+
+
+                <button
+                    class="option-card"
+                    data-group="hairstyle"
+                    data-value="Open Hair">
+
+                    <span class="option-icon">
+                        💇
+                    </span>
+
+                    <span>
+                        Open Hair
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="hairstyle"
+                    data-value="Ponytail">
+
+                    <span class="option-icon">
+                        🎀
+                    </span>
+
+                    <span>
+                        Ponytail
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="hairstyle"
+                    data-value="Bun">
+
+                    <span class="option-icon">
+                        🌸
+                    </span>
+
+                    <span>
+                        Bun
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="hairstyle"
+                    data-value="Braids">
+
+                    <span class="option-icon">
+                        🌿
+                    </span>
+
+                    <span>
+                        Braids
+                    </span>
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- MAKEUP -->
+
+        <div class="style-section">
+
+            <div class="section-title">
+
+                <span class="number">
+                    04
+                </span>
+
+                <div>
+
+                    <h2>
+                        What about makeup?
+                    </h2>
+
+                    <p>
+                        Select your preferred makeup style.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="options-grid">
+
+
+                <button
+                    class="option-card"
+                    data-group="makeup"
+                    data-value="Natural">
+
+                    <span class="option-icon">
+                        🌿
+                    </span>
+
+                    <span>
+                        Natural
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="makeup"
+                    data-value="Soft Glam">
+
+                    <span class="option-icon">
+                        ✨
+                    </span>
+
+                    <span>
+                        Soft Glam
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="makeup"
+                    data-value="Party">
+
+                    <span class="option-icon">
+                        💄
+                    </span>
+
+                    <span>
+                        Party
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="makeup"
+                    data-value="Minimal">
+
+                    <span class="option-icon">
+                        ♡
+                    </span>
+
+                    <span>
+                        Minimal
+                    </span>
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- FOOTWEAR -->
+
+        <div class="style-section">
+
+            <div class="section-title">
+
+                <span class="number">
+                    05
+                </span>
+
+                <div>
+
+                    <h2>
+                        Complete your look.
+                    </h2>
+
+                    <p>
+                        Choose your preferred footwear.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="options-grid">
+
+
+                <button
+                    class="option-card"
+                    data-group="footwear"
+                    data-value="Sneakers">
+
+                    <span class="option-icon">
+                        👟
+                    </span>
+
+                    <span>
+                        Sneakers
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="footwear"
+                    data-value="Heels">
+
+                    <span class="option-icon">
+                        👠
+                    </span>
+
+                    <span>
+                        Heels
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="footwear"
+                    data-value="Flats">
+
+                    <span class="option-icon">
+                        🥿
+                    </span>
+
+                    <span>
+                        Flats
+                    </span>
+
+                </button>
+
+
+                <button
+                    class="option-card"
+                    data-group="footwear"
+                    data-value="Traditional">
+
+                    <span class="option-icon">
+                        ✿
+                    </span>
+
+                    <span>
+                        Traditional
+                    </span>
+
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- CREATE LOOK -->
+
+        <div class="create-section">
+
+            <p id="selectionMessage">
+
+                Choose your preferences above.
+
+            </p>
+
+
+            <button
+                class="create-button"
+                onclick="createLook()">
+
+                Create My Look
+
+                <span>
+                    ✨
+                </span>
+
+            </button>
+
+        </div>
+
+
+    </section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <span>
+        ✦ Ruvanya
+    </span>
+
+    <p>
+        Where Style Meets You.
+    </p>
+
+</footer>
+
+
+
+<script src="style.js"></script>
+
+</body>
+
+</html>
