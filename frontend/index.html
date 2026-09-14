@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ruvanya | Where Style Meets You</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            <span class="logo-symbol">✦</span>
+
+            <span class="logo-name">
+                Ruvanya
+            </span>
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="#home" class="active">
+                Home
+            </a>
+
+            <a href="#about">
+                About Us
+            </a>
+
+            <a href="#features">
+                Features
+            </a>
+
+            <a href="#how-it-works">
+                How It Works
+            </a>
+
+        </nav>
+
+        <button
+            class="nav-button"
+            onclick="goToLogin()">
+            Get Started
+        </button>
+
+        <button
+            class="menu-button"
+            onclick="toggleMenu()">
+            ☰
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    ✦ AI-POWERED PERSONAL STYLING
+                </p>
+
+                <h1>
+                    YOUR STYLE.
+                    <br>
+                    <span>YOUR IDENTITY.</span>
+                </h1>
+
+                <p class="tagline">
+                    Where style meets you.
+                </p>
+
+                <p class="hero-description">
+                    Ruvanya is your personal AI fashion stylist,
+                    helping you discover outfits, hairstyles,
+                    makeup and footwear that match your
+                    personality and occasion.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <button
+                        class="primary-button"
+                        onclick="goToLogin()">
+
+                        Start Styling
+
+                        <span>→</span>
+
+                    </button>
+
+                    <button
+                        class="secondary-button"
+                        onclick="scrollToSection('how-it-works')">
+
+                        How It Works
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO VISUAL -->
+
+            <div class="hero-visual">
+
+                <div class="fashion-card">
+
+                    <div class="card-top">
+
+                        <span>
+                            RUVANYA
+                        </span>
+
+                        <span>
+                            01
+                        </span>
+
+                    </div>
+
+                    <div class="fashion-content">
+
+                        <div class="fashion-symbol">
+                            ✦
+                        </div>
+
+                        <h2>
+                            STYLE
+                            <br>
+                            <i>ME.</i>
+                        </h2>
+
+                        <p>
+                            WHERE STYLE MEETS YOU
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- AI CARD -->
+
+                <div class="floating-card ai-card">
+
+                    <div class="floating-icon">
+                        ✨
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            AI Stylist
+                        </strong>
+
+                        <small>
+                            Personalized for you
+                        </small>
+
+                    </div>
+
+                </div>
+
+
+                <!-- OUTFIT CARD -->
+
+                <div class="floating-card outfit-card">
+
+                    <div class="floating-icon">
+                        👗
+                    </div>
+
+                    <div>
+
+                        <strong>
+                            Perfect Match
+                        </strong>
+
+                        <small>
+                            Outfit recommendation
+                        </small>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section
+            class="about-section"
+            id="about">
+
+            <div class="section-label">
+                ABOUT RUVANYA
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-title">
+
+                    <h2>
+                        Fashion should
+                        <br>
+                        feel <i>personal.</i>
+                    </h2>
+
+                </div>
+
+                <div class="about-description">
+
+                    <p>
+                        We believe fashion is more than just
+                        clothes. It is a way to express who
+                        you are.
+                    </p>
+
+                    <p>
+                        Ruvanya uses AI to help you discover
+                        styles that fit your personality,
+                        preferences and occasion.
+                    </p>
+
+                    <p>
+                        From your outfit to your hairstyle,
+                        makeup and footwear, Ruvanya brings
+                        your complete look together.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section
+            class="features-section"
+            id="features">
+
+            <div class="section-heading">
+
+                <p>
+                    DISCOVER YOUR STYLE
+                </p>
+
+                <h2>
+                    Everything you need
+                    <br>
+                    to create your look.
+                </h2>
+
+            </div>
+
+
+            <div class="feature-grid">
+
+
+                <!-- OUTFIT -->
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        01
+                    </span>
+
+                    <div class="feature-icon">
+                        👗
+                    </div>
+
+                    <h3>
+                        Outfit
+                    </h3>
+
+                    <p>
+                        Discover outfit ideas based on
+                        your personal style and occasion.
+                    </p>
+
+                    <span class="feature-arrow">
+                        →
+                    </span>
+
+                </div>
+
+
+                <!-- HAIRSTYLE -->
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        02
+                    </span>
+
+                    <div class="feature-icon">
+                        💇
+                    </div>
+
+                    <h3>
+                        Hairstyle
+                    </h3>
+
+                    <p>
+                        Find hairstyle inspiration that
+                        complements your complete look.
+                    </p>
+
+                    <span class="feature-arrow">
+                        →
+                    </span>
+
+                </div>
+
+
+                <!-- MAKEUP -->
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        03
+                    </span>
+
+                    <div class="feature-icon">
+                        💄
+                    </div>
+
+                    <h3>
+                        Makeup
+                    </h3>
+
+                    <p>
+                        Discover makeup ideas for your
+                        style and different occasions.
+                    </p>
+
+                    <span class="feature-arrow">
+                        →
+                    </span>
+
+                </div>
+
+
+                <!-- FOOTWEAR -->
+
+                <div class="feature-card">
+
+                    <span class="feature-number">
+                        04
+                    </span>
+
+                    <div class="feature-icon">
+                        👟
+                    </div>
+
+                    <h3>
+                        Footwear
+                    </h3>
+
+                    <p>
+                        Complete your outfit with footwear
+                        that matches your look.
+                    </p>
+
+                    <span class="feature-arrow">
+                        →
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HOW IT WORKS ================= -->
+
+        <section
+            class="how-section"
+            id="how-it-works">
+
+            <div class="section-heading center">
+
+                <p>
+                    HOW IT WORKS
+                </p>
+
+                <h2>
+                    Your style journey
+                    <br>
+                    starts here.
+                </h2>
+
+            </div>
+
+
+            <div class="steps">
+
+
+                <!-- STEP 1 -->
+
+                <div class="step">
+
+                    <span class="step-number">
+                        01
+                    </span>
+
+                    <div class="step-icon">
+                        📸
+                    </div>
+
+                    <h3>
+                        Upload
+                    </h3>
+
+                    <p>
+                        Upload your photo and
+                        tell Ruvanya about your style.
+                    </p>
+
+                </div>
+
+
+                <div class="step-line"></div>
+
+
+                <!-- STEP 2 -->
+
+                <div class="step">
+
+                    <span class="step-number">
+                        02
+                    </span>
+
+                    <div class="step-icon">
+                        ✨
+                    </div>
+
+                    <h3>
+                        Personalize
+                    </h3>
+
+                    <p>
+                        Select your occasion,
+                        preferences and fashion choices.
+                    </p>
+
+                </div>
+
+
+                <div class="step-line"></div>
+
+
+                <!-- STEP 3 -->
+
+                <div class="step">
+
+                    <span class="step-number">
+                        03
+                    </span>
+
+                    <div class="step-icon">
+                        💫
+                    </div>
+
+                    <h3>
+                        Get Your Look
+                    </h3>
+
+                    <p>
+                        Get personalized AI styling
+                        recommendations made for you.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= OCCASIONS ================= -->
+
+        <section class="occasion-section">
+
+            <div class="occasion-intro">
+
+                <p>
+                    STYLE FOR EVERY MOMENT
+                </p>
+
+                <h2>
+                    Whatever the
+                    <br>
+                    occasion.
+                </h2>
+
+                <span>
+                    Whether it is college, a party,
+                    a formal event or a special day,
+                    Ruvanya helps you find your look.
+                </span>
+
+            </div>
+
+
+            <div class="occasion-grid">
+
+                <div class="occasion-card college">
+
+                    <span>
+                        🎓
+                    </span>
+
+                    <h3>
+                        College
+                    </h3>
+
+                </div>
+
+
+                <div class="occasion-card party">
+
+                    <span>
+                        🎉
+                    </span>
+
+                    <h3>
+                        Party
+                    </h3>
+
+                </div>
+
+
+                <div class="occasion-card formal">
+
+                    <span>
+                        💼
+                    </span>
+
+                    <h3>
+                        Formal
+                    </h3>
+
+                </div>
+
+
+                <div class="occasion-card wedding">
+
+                    <span>
+                        💍
+                    </span>
+
+                    <h3>
+                        Wedding
+                    </h3>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FINAL CTA ================= -->
+
+        <section class="final-section">
+
+            <div class="final-content">
+
+               <span class="final-star">
+                    ✦
+                </span>
+
+                <p class="final-label">
+                    YOUR STYLE. YOUR WAY.
+                </p>
+
+                <h2>
+                    Ready to discover
+                    <br>
+                    your style?
+                </h2>
+
+                <p>
+                    Let Ruvanya help you create
+                    a look that feels uniquely you.
+                </p>
+
+                <button
+                    onclick="goToLogin()">
+
+                    Get Started
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-content">
+
+
+            <div class="footer-brand">
+
+                <h3>
+                    ✦ Ruvanya
+                </h3>
+
+                <p>
+                    Where Style Meets You.
+                </p>
+
+                <span>
+                    Your personal AI fashion stylist.
+                </span>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>
+                    Explore
+                </h4>
+
+                <a href="#home">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About Us
+                </a>
+
+                <a href="#features">
+                    Features
+                </a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>
+                    Discover
+                </h4>
+
+                <a href="#how-it-works">
+                    How It Works
+                </a>
+
+                <a
+                    href="#"
+                    onclick="goToLogin(); return false;">
+                    Get Started
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Ruvanya
+            </span>
+
+            <span>
+                Where Style Meets You.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
