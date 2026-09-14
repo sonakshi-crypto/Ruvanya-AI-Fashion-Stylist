@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Ruvanya | Sign In</title>
+
+    <link rel="stylesheet" href="login.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+    <!-- BACK TO HOME -->
+
+    <a href="index.html" class="back-home">
+
+        ← Back to Home
+
+    </a>
+
+
+    <!-- MAIN -->
+
+    <main class="auth-page">
+
+
+        <!-- AUTH CARD -->
+
+        <section class="auth-card">
+
+
+            <!-- BRAND -->
+
+            <div class="brand">
+
+                <span class="brand-symbol">
+                    ✦
+                </span>
+
+                <span>
+                    Ruvanya
+                </span>
+
+            </div>
+
+
+            <p class="brand-tagline">
+                Where Style Meets You
+            </p>
+
+
+            <!-- HEADING -->
+
+            <h1 id="formTitle">
+                Welcome Back
+            </h1>
+
+            <p
+                class="form-subtitle"
+                id="formSubtitle">
+
+                Sign in to continue your
+                style journey.
+
+            </p>
+
+
+            <!-- TABS -->
+
+            <div class="tabs">
+
+                <button
+                    id="signInTab"
+                    class="tab active"
+                    type="button">
+
+                    Sign In
+
+                </button>
+
+
+                <button
+                    id="signUpTab"
+                    class="tab"
+                    type="button">
+
+                    Sign Up
+
+                </button>
+
+            </div>
+
+
+            <!-- ================= SIGN IN ================= -->
+
+            <form
+                id="signInForm"
+                class="auth-form active-form">
+
+
+                <div class="input-group">
+
+                    <label for="signinEmail">
+                        Email or Phone
+                    </label>
+
+                    <input
+                        type="text"
+                        id="signinEmail"
+                        placeholder="Enter your email or phone"
+                        autocomplete="username"
+                        required>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <div class="password-label">
+
+                        <label for="signinPassword">
+                            Password
+                        </label>
+
+                        <a href="#">
+                            Forgot password?
+                        </a>
+
+                    </div>
+
+
+                    <input
+                        type="password"
+                        id="signinPassword"
+                        placeholder="Enter your password"
+                        autocomplete="current-password"
+                        required>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="continue-button">
+
+                    Sign In
+
+                    <span>→</span>
+
+                </button>
+
+
+                <div class="divider">
+
+                    <span></span>
+
+                    <p>or</p>
+
+                    <span></span>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="google-button">
+
+                    <span class="google-icon">
+                        G
+                    </span>
+
+                    Continue with Google
+
+                </button>
+
+
+                <p class="switch-text">
+
+                    Don't have an account?
+
+                    <button
+                        type="button"
+                        id="switchToSignUp">
+
+                        Create Account
+
+                    </button>
+
+                </p>
+
+
+            </form>
+
+
+            <!-- ================= SIGN UP ================= -->
+
+            <form
+                id="signUpForm"
+                class="auth-form">
+
+
+                <div class="input-group">
+
+                    <label for="signupName">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        id="signupName"
+                        placeholder="Enter your full name"
+                        autocomplete="name"
+                        required>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="signupEmail">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        id="signupEmail"
+                        placeholder="Enter your email"
+                        autocomplete="email"
+                        required>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="signupPassword">
+                        Create Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="signupPassword"
+                        placeholder="Create a password"
+                        autocomplete="new-password"
+                        required>
+
+                </div>
+
+
+                <div class="input-group">
+
+                    <label for="signupConfirmPassword">
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        id="signupConfirmPassword"
+                        placeholder="Confirm your password"
+                        autocomplete="new-password"
+                        required>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="continue-button">
+
+                    Create Account
+
+                    <span>→</span>
+
+                </button>
+
+
+                <div class="divider">
+
+                    <span></span>
+
+                    <p>or</p>
+
+                    <span></span>
+
+                </div>
+
+
+                <button
+                    type="button"
+                    class="google-button">
+
+                    <span class="google-icon">
+                        G
+                    </span>
+
+                    Sign up with Google
+
+                </button>
+
+
+                <p class="switch-text">
+
+                    Already have an account?
+
+                    <button
+                        type="button"
+                        id="switchToSignIn">
+
+                        Sign In
+
+                    </button>
+
+                </p>
+
+
+            </form>
+
+
+        </section>
+
+
+        <!-- SIDE MESSAGE -->
+
+        <div class="auth-message">
+
+            <span class="message-symbol">
+                ✦
+            </span>
+
+            <h2>
+                Your style
+                <br>
+                starts with <i>you.</i>
+            </h2>
+
+            <p>
+                Discover a more personal way
+                to express your style with
+                Ruvanya.
+            </p>
+
+        </div>
+
+
+    </main>
+
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>-----
